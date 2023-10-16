@@ -1,6 +1,6 @@
 # SIMPLE SHELL (CREATE YOUR OWN SHELL)
 
-List of allowed functions and system calls
+## List of allowed functions and system calls
 
 chdir (man 2 chdir) <br/>
 access (man 2 access) <br/>
