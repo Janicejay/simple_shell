@@ -1,4 +1,4 @@
-#SIMPLE SHELL
+# SIMPLE SHELL
 
 List of allowed functions and system calls
 
