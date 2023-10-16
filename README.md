@@ -1,6 +1,6 @@
 # SIMPLE SHELL
 
-CREATE YOUR OWN SHELL
+## CREATE YOUR OWN SHELL
 
 List of allowed functions and system calls
 
