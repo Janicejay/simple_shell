@@ -18,13 +18,11 @@ char **split_command(char *command)
 		exit(EXIT_FAILURE);
 	}
 	command_cpy = _strdup(command);
-
 	if (command_cpy == NULL)
 	{
 		perror("split_command");
 		exit(EXIT_FAILURE);
 	}
-
 	args = malloc(1000 * sizeof(char *));
 
 	if (args == NULL)
@@ -35,6 +33,8 @@ char **split_command(char *command)
 	token = strtok(command_cpy, " \n\t\r");
 	while (token != NULL)
 	{
+		if (str_cmp(token, "#") == 0)
+			break;
 		args[i] = _strdup(token);
 		if (args[i] == NULL)
 		{

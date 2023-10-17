@@ -14,6 +14,7 @@
 #include <limits.h>
 
 #define MAX_WORDS 100
+#define BUFFER_SIZE 1024
 
 extern char **environ;
 
@@ -28,7 +29,6 @@ int str_cmp(char *s1, char *s2);
 char *str_cpy(char *dest, char *src);
 void print_stderr(const char *str);
 void print_stdout(const char *str);
-void free_mem(char **args);
 char *_strdup(char *str);
 char *concatenatePath(char *filename);
 int str_chr(char *str, int character);
@@ -46,10 +46,9 @@ int execute_command(char **args, int interactive, char *argv[], int linecount);
 int builtin_commands(char *args, char *argv[], int linecount);
 void exit_builtin(char *args, char **command, char *argv[], int linecount);
 void get_env(void);
+void cd_builtin(char *argv[], int linecount, char **command);
 
 /* custom getline function */
-#define BUFFER_SIZE 1024
-
 ssize_t custom_getline(char **line_ptr, size_t *n, int fd);
 char *strtok_custom(char *str, char *delimeter);
 
@@ -61,6 +60,7 @@ ssize_t reallocate_buffer(char **line_ptr, size_t *n);
 /* memory */
 void *shell_realloc(void *ptr, size_t size);
 char *shell_memcpy(char *dest, char *src, unsigned int n);
+void free_mem(char **args);
 
 /* */
 void compute_input(int interactive, int input_fd, int argc, char *argv[], int linecount);

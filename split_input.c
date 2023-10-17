@@ -18,7 +18,6 @@ char **split_input(char *input)
 		exit(EXIT_FAILURE);
 	}
 	input_cpy = _strdup(input);
-
 	if (input_cpy == NULL)
 	{
 		perror("split_line");
@@ -31,7 +30,6 @@ char **split_input(char *input)
 		perror("malloc: split_line");
 		exit(EXIT_FAILURE);
 	}
-
 	token = strtok(input_cpy, ";");
 	while (token != NULL)
 	{

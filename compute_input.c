@@ -18,7 +18,6 @@ void compute_input(int interactive,
 	int i = 0, status;
 
 	(void)argc;
-
 	if (interactive)
 	{
 		write(STDOUT_FILENO, "$garri$ ", _strlen("$garri$ "));
@@ -34,19 +33,16 @@ void compute_input(int interactive,
 	{
 		free(input);
 		free_mem(args);
+		return;
 	}
 	free(input);
 
 	while (args[i] != NULL)
 	{
 		commands = split_command(args[i]);
-		if (commands == NULL || commands[0] == NULL)
-			free_mem(commands);
 		execute_command(commands, interactive, argv, linecount);
 		free_mem(commands);
 		i++;
 	}
-
 	free_mem(args);
 }
-
