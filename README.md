@@ -3,11 +3,12 @@
 ## Description
 
 `Shell` refers to a command-line interface (CLI) or program that provides a user the ability to interact with a computer's operating system and execute various commands.
-	The `Simple Shell` project is designed to function like a typical shell, with some limitations compared to more complex shells. It supports common shell commands, both in interactive and non-interactive modes.
 
-***Built with: Implemented in C language, with adherence to POSIX standards.***
+The `Simple Shell` project is designed to function like a typical shell, with some limitations compared to more complex shells. It supports common shell commands, both in interactive and non-interactive modes.
 
-## Concepts to Understand:
+***Implemented in C language, with adherence to POSIX standards.***
+
+## Concepts to Understand
 > To effectively contribute to or utilize this project, it's helpful to have knowledge of the following concepts:
 
 1. Basic shell scripting and commands
@@ -15,7 +16,7 @@
 3. Process management and execution
 4. POSIX standards and system calls
 
-### Usage
+## Usage
 
 - Arguments are separated by whitespace (no quoting or backslash escaping).
 - Supports most commands found in `/bin/`.
@@ -26,6 +27,7 @@
 
 ### List of allowed functions and system calls in the project
 > Every other required function or system call must be custom-made.
+
 > NOTE: `man` is a built-in manual for using Linux commands.
 
 - `access` (man 2 access)
