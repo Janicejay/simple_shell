@@ -53,7 +53,7 @@ In this simple `shell` project we are going to be looking at how the interaction
 - `wait4` (man 2 wait4)
 - `write` (man 2 write)
 
-#Testing
+## Testing
 To test the functionality of this custom shell, follow the steps below:
 1. Clone this repository
 
@@ -63,7 +63,7 @@ To test the functionality of this custom shell, follow the steps below:
 
 ## CONTRIBUTIONS
 This `simple shell` project was done in teams of 2 people, the contributors are:
-- [Faith Istifanus](https://github.com/Janicejay): janicejay5@gmail.com <br/>
-  - [Oluwatamilore Olugbesan](https://github.com/Tamilore-0): findtamilore@gmail.com
+- [Faith Istifanus](https://github.com/Janicejay): janicejay5@gmail.com
+- [Oluwatamilore Olugbesan](https://github.com/Tamilore-0): findtamilore@gmail.com
 
 Unfortunately we won't be accepting pull requests on this repository, for the sole reason of it being a school project, but suggestions on how to improve the functionality of our shell will be welcomed and highly appreciated, kindly reach out to either of us on our `respective emails` anytime, Thank You.
