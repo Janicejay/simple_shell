@@ -1,25 +1,32 @@
-# SIMPLE SHELL (CREATE YOUR OWN SHELL)
+# SIMPLE SHELL
 
-## ABOUT
+## Description
 
-`Shell` refers to a command-line interface (CLI) or program that provides a user the ability to interact with a computer's operating system and execute various commands.
-In this simple `shell` project we are going to be looking at how the interaction process works. However, there will be some limitations with this shell as it will not be as complex as the original.
+	`Shell` refers to a command-line interface (CLI) or program that provides a user the ability to interact with a computer's operating system and execute various commands.
+	The `Simple Shell` project is designed to function like a typical shell, with some limitations compared to more complex shells. It supports common shell commands, both in interactive and non-interactive modes.
 
-## OBJECTIVES
+**Built with**: *Implemented in C language, with adherence to POSIX standards.
 
-- How does a shell work?
-- Create a custom `simple shell` that functions exactly as the original.
-- What is a `pid` and a `ppid`?
-- How to manipulate the environment of the current process
-- Difference between a function and a system call
-- How to create processes
-- Know the three prototypes of `main`
-- How the shell uses `PATH` to find programs.
-- How to execute another program with the `execve` system call
-- How to suspend the execution of a process until one of its children terminates
-- What is `EOF` / “end-of-file”?
+## Usage
 
-## List of allowed functions and system calls
+- Arguments are separated by whitespace (no quoting or backslash escaping).
+- Supports most commands found in `/bin/`.
+	- Builtin commands are limited to: `env`, `cd` and `exit`.
+- No redirection, piping, or globbing.
+- Handles ; as a command separator.
+- Can read and execute commands from files (work in progress).
+
+## Concepts to Understand:
+To effectively contribute to or utilize this project, it's helpful to have knowledge of the following concepts:
+
+1. Basic shell scripting and commands
+2. Command-line interfaces (CLI)
+3. Process management and execution
+4. POSIX standards and system calls
+
+## List of allowed functions and system calls in the project
+> [!NOTE]
+> 'Every other required function or system call must be custom-made.'
 
 - `access` (man 2 access)
 - `chdir` (man 2 chdir)
@@ -61,9 +68,17 @@ To test the functionality of this custom shell, follow the steps below:
 
 3. Run it using `./hsh`
 
-## CONTRIBUTIONS
-This `simple shell` project was done in teams of 2 people, the contributors are:
-- [Faith Istifanus](https://github.com/Janicejay): janicejay5@gmail.com
-- [Oluwatamilore Olugbesan](https://github.com/Tamilore-0): findtamilore@gmail.com
+## AUTHORS
+This `Simple Shell` project was developed by a team of two contributors:
+- [Faith Istifanus](https://github.com/Janicejay)
+- [Oluwatamilore Olugbesan](https://github.com/Tamilore-0)
 
-Unfortunately we won't be accepting pull requests on this repository, for the sole reason of it being a school project, but suggestions on how to improve the functionality of our shell will be welcomed and highly appreciated, kindly reach out to either of us on our `respective emails` anytime, Thank You.
+Unfortunately we won't be accepting pull requests on this repository, for the sole reason of it being a school project, but suggestions on how to improve the functionality of our shell will be welcomed and highly appreciated, kindly reach out to either of us on our `respective emails` anytime, Thank You.i
+
+## Contact Information
+Feel free to reach out to us with any suggestions or questions:
+
+- Faith Istifanus: Contact: `#0969DA` janicejay5@gmail.com
+- Oluwatamilore Olugbesan: Contact: `#0969DA` findtamilore@gmail.com
+
+
