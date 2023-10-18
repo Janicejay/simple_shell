@@ -1,5 +1,5 @@
 # SIMPLE SHELL
-(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.redbubble.com%2Fshop%2Flinux%2Bmeme%2Bart-prints&psig=AOvVaw21IqiXTCEadwISafuafltr&ust=1697673873542000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDux5Om_oEDFQAAAAAdAAAAABAK)
+
 ## Description
 
 `Shell` refers to a command-line interface (CLI) or program that provides a user the ability to interact with a computer's operating system and execute various commands.
@@ -15,6 +15,9 @@ This `Simple Shell` project is designed to function like a typical shell, with s
 2. Command-line interfaces (CLI)
 3. Process management and execution
 4. POSIX standards and system calls
+5. Manipulation of Environmental variables.
+6. Data Structures
+7. FILE I/O and Syatem calls
 
 ## Usage
 
