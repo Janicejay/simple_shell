@@ -26,7 +26,7 @@ This `Simple Shell` project is designed to function like a typical shell, with s
 4. POSIX standards and system calls
 5. Manipulation of Environmental variables.
 6. Data Structures
-7. FILE I/O and Syatem calls
+7. FILE I/O operations
 
 ## Usage
 
