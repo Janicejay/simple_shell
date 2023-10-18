@@ -34,7 +34,8 @@ char *concatenatePath(char *filename);
 int str_chr(char *str, int character);
 char **split_command(char *command);
 int atoi_custom(char *str);
-void error_msg(char *argv[], int linecount, char *str, char *message, char *command);
+void error_msg(char *argv[], int linecount, char *str,
+		char *message, char *command);
 
 
 /* Main functions */
@@ -63,5 +64,6 @@ char *shell_memcpy(char *dest, char *src, unsigned int n);
 void free_mem(char **args);
 
 /* */
-void compute_input(int interactive, int input_fd, int argc, char *argv[], int linecount);
+void compute_input(int interactive, int input_fd,
+		int argc, char *argv[], int linecount);
 #endif /* SHELL_H */
