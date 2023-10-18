@@ -1,5 +1,14 @@
 # SIMPLE SHELL
 
+## Contents
+- [Description](#Description)
+- [Concepts to understand](#Concepts to inderstand)
+- [Usage](#Usage)
+- [Lists of allowed functions and system calls](#Lists of allowed functions and system calls)
+- [Testing](#Testing)
+- [AUTHORS](#AUTHORS)
+- [Contact information](#Contact information)
+
 ## Description
 
 `Shell` refers to a command-line interface (CLI) or program that provides a user the ability to interact with a computer's operating system and execute various commands.
@@ -28,7 +37,7 @@ This `Simple Shell` project is designed to function like a typical shell, with s
 - Handles ; as a command separator.
 - Can read and execute commands from files (work in progress).
 
-### List of allowed functions and system calls in the project
+### List of allowed functions and system calls
 > Every other required function or system call must be custom-made.
 
 > NOTE: `man` is a built-in manual for using Linux commands.
