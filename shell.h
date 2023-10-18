@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef SHELL_H
+#define SHELL_H
 
 #define _GNU_SOURCE
 #include <stdio.h>
@@ -64,4 +64,4 @@ void free_mem(char **args);
 
 /* */
 void compute_input(int interactive, int input_fd, int argc, char *argv[], int linecount);
-#endif /* MAIN_H */
+#endif /* SHELL_H */
