@@ -1,10 +1,10 @@
 # SIMPLE SHELL
-
+(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.redbubble.com%2Fshop%2Flinux%2Bmeme%2Bart-prints&psig=AOvVaw21IqiXTCEadwISafuafltr&ust=1697673873542000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDux5Om_oEDFQAAAAAdAAAAABAK)
 ## Description
 
 `Shell` refers to a command-line interface (CLI) or program that provides a user the ability to interact with a computer's operating system and execute various commands.
 
-The `Simple Shell` project is designed to function like a typical shell, with some limitations compared to more complex shells. It supports common shell commands, both in interactive and non-interactive modes.
+This `Simple Shell` project is designed to function like a typical shell, with some limitations compared to more complex shells. It supports common shell commands, both in interactive and non-interactive modes.
 
 ***Implemented in C language, with adherence to POSIX standards.***
 
